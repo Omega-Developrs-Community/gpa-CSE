@@ -71,7 +71,7 @@ function reset()
     document.getElementById("btn-options").style.display ="none" ;
 
     document.getElementById("result").style.display = "none" ;
-
+    document.getElementById('foot').style.bottom='0';
 
     var paper = document.getElementsByClassName("paper") ;
     var grade = document.getElementsByClassName("grade") ;
